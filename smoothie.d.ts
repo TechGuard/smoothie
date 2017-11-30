@@ -43,6 +43,11 @@ export declare class TimeSeries {
     maxValue: number;
 
     /**
+     * Hide this <code>TimeSeries</code> object in the chart.
+     */
+    disabled: boolean;
+    
+    /**
      * Clears all data and state from this TimeSeries object.
      */
     clear(): void;
